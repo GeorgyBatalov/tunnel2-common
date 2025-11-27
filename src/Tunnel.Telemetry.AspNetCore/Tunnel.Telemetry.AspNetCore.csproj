@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet Package Configuration -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Tunnel.Telemetry.AspNetCore</PackageId>
+    <Version>0.2.0</Version>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
+    <FileVersion>0.2.0.0</FileVersion>
+    <Authors>Tunnel2 Team</Authors>
+    <Description>ASP.NET Core extensions for Tunnel.Telemetry - adds HTTP middleware and OpenTelemetry instrumentation</Description>
+    <PackageTags>telemetry;opentelemetry;aspnetcore;distributed-tracing;middleware</PackageTags>
+    <RepositoryUrl>https://github.com/GeorgyBatalov/tunnel2-common</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Core Telemetry library -->
+    <ProjectReference Include="../Tunnel.Telemetry/Tunnel.Telemetry.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- ASP.NET Core dependencies -->
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.14.0" />
+  </ItemGroup>
+
+</Project>
