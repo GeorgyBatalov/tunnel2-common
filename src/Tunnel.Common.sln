@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B30BC7E0-B06C-4935-9504-511AF2E456F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tunnel.Telemetry", "Tunnel.Telemetry\Tunnel.Telemetry.csproj", "{503F5E41-9775-487A-A688-0C5778A99DA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tunnel.Telemetry", "src\Tunnel.Telemetry\Tunnel.Telemetry.csproj", "{503F5E41-9775-487A-A688-0C5778A99DA4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tunnel.Telemetry.UnitTests", "src\Tunnel.Telemetry.UnitTests\Tunnel.Telemetry.UnitTests.csproj", "{BB8083DA-8C7B-423D-8C64-73750C994181}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tunnel.Telemetry.UnitTests", "Tunnel.Telemetry.UnitTests\Tunnel.Telemetry.UnitTests.csproj", "{BB8083DA-8C7B-423D-8C64-73750C994181}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +24,5 @@ Global
 		{BB8083DA-8C7B-423D-8C64-73750C994181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB8083DA-8C7B-423D-8C64-73750C994181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB8083DA-8C7B-423D-8C64-73750C994181}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{503F5E41-9775-487A-A688-0C5778A99DA4} = {B30BC7E0-B06C-4935-9504-511AF2E456F8}
-		{BB8083DA-8C7B-423D-8C64-73750C994181} = {B30BC7E0-B06C-4935-9504-511AF2E456F8}
 	EndGlobalSection
 EndGlobal
