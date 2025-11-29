@@ -46,9 +46,10 @@ public static class ServiceCollectionExtensions
                 // Add Tunnel2 activity sources
                 tracerBuilder.AddSource("Tunnel2.*");
 
-                // Phase 8 Week 3-4 Day 3: Add custom ActivitySource names for TCP handlers
+                // Phase 8 Week 3-4: Add custom ActivitySource names for all services
                 tracerBuilder.AddSource("TunnelServer");
                 tracerBuilder.AddSource("ProxyEntry");
+                tracerBuilder.AddSource("TunnelClient"); // Phase 8 Week 3-4 Day 4
 
                 // Add HttpClient instrumentation (auto-creates spans for outgoing HTTP calls)
                 tracerBuilder.AddHttpClientInstrumentation(options =>

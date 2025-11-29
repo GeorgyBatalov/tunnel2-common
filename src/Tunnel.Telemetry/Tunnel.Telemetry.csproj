@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>0.2.1</Version>
+    <Version>0.2.2</Version>
     <Authors>Tunnel2 Team</Authors>
     <Description>Distributed tracing and correlation context library for Tunnel2 services (console and ASP.NET Core). For ASP.NET Core apps, also install Tunnel.Telemetry.AspNetCore package.</Description>
     <PackageTags>telemetry;opentelemetry;serilog;distributed-tracing</PackageTags>
